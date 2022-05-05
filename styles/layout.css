@@ -1,0 +1,21 @@
+.layout-header, .layout-footer {
+    background-color: #264653;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.layout-header {
+    color: #f4a261;
+}
+
+.layout-footer {
+    color: #e9c46a;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 210px);
+}
